@@ -24,7 +24,7 @@ enum event_type{
 	event_type_reliable_disconnect,
 	event_type_fast_accept,
 	event_type_fast_recv,
-	event_type_fast_disconnect,
+	event_size,
 };
 
 struct EVENT{

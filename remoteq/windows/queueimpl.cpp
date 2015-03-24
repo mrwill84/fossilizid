@@ -111,7 +111,7 @@ EVENT queue(QUEUE que){
 				}
 			} else if (ovlp->type == iocp_type_udp_recv){
 				dispense(ev, bytes, ovlp->h);
-			} 
+			}
 
 			pool::objpool<overlappedex>::deallocator(ovlp, 1);
 		}
