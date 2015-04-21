@@ -1,6 +1,0 @@
-module juggle{
-	string login(string argv3);
-
-	string test(string argv3);
-
-}
